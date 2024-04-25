@@ -1,12 +1,35 @@
 import './App.css'
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import {Line} from 'react-chartjs-2';
+import {
+  Chart as ChartJS, 
+  CategoryScale, //represents non-numerical data
+  LinearScale, //represents numerical data
+  PointElement, //represents points on the chart
+  LineElement, //refers to a line segment in a line chart
+  Legend, //key that provides information about the data series or categories
+  Tooltip, // small pop-up box that appears when you hover over a data poin
+  Title, // Title of the chart
+} from 'chart.js'
+
+ChartJS.register( //need to be registered to render on the application
+  CategoryScale, 
+  LinearScale,  
+  PointElement, 
+  LineElement, 
+  Legend, 
+  Tooltip, 
+  Title,
+)
+
 
 
 function App() {
   return <div className="fullApp">
     <Header appName="Currency Web App" />
     <Buttons baseCurrency="USD" quoteCurrency1="ZAR" quoteCurrency2="EUR"/>
+    <LineChart />
   </div>;
 }
 
@@ -69,6 +92,39 @@ const Buttons = (props) => {
       </button>
     </div>
   );
+}
+
+const LineChart = () => {
+  const options = {}
+  return (
+    <div className="chart">
+      <Line data={LineChartData} options={options} />
+    </div>
+  )
+}
+
+const LineChartData = {
+  labels: [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+  ],
+
+  datasets: [
+    {
+      label: 'My First dataset',
+      data: [65, 59, 80, 81, 56, 55, 40],
+      fill: false,
+      borderColor: 'rgb(75, 192, 192)',
+      width: '800',
+      height: '600',
+      tension: 0.4,
+    },
+  ]
 }
 
 
