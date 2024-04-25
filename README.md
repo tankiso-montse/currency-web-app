@@ -1,11 +1,10 @@
 Web Currency App 
 
-#TODO -  INSTALLATION
-
+----------------------------------------------------------------#TODO -INSTALLATION------------------------------------------------------
 ``` Clone the repository: ```
 ~ git clone https://github.com/tankiso-montse/currency-web-app.git
 
-------------------------------------------------### Node.js Installation-----------------------------------------------------------------
+------------------------------------------------###NOTE - Node.js Installation-----------------------------------------------------------------
  Open a terminal or command prompt.
 - Type node -v and press Enter.
 -- If Node.js is installed, it will display the version number. If not, you will see an error message.
@@ -14,7 +13,7 @@ Web Currency App
 - If Node.js is not installed, download it from nodejs.org.
 - Follow the installation instructions for your operating system.
 
-------------------------------------------------###NOTE - Vite Installation Guide ###----------------------------------------------------------
+------------------------------------------------###NOTE -Vite Installation Guide ###-----------------------------------------------------
 
 Using Homebrew (macOS)
 ~ brew install vite
@@ -24,7 +23,7 @@ Normal Installation
 ~ npm install -g create-vite
 ~ vite --version // Verify installation
 
-------------------------------------------------###NOTE - Yarn Installation Guide ###--------------------------------------------------------
+------------------------------------------------###NOTE -Yarn Installation Guide ###------------------------------------------------------
 (Package Manager)
 
 ``macOS Homebrew (recommended)``
@@ -66,6 +65,8 @@ Install dependencies (if you haven't already):If you haven't installed the proje
 
 Run the Vite development server:To start the Vite development server, use the following command:
 ~ yarn dev
+
+From there do 
 
 
 ------------------------------------------------###NOTE - API Configuration------------------------------------------------
