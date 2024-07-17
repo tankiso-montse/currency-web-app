@@ -4,7 +4,7 @@ Web Currency App
 ``` Clone the repository: ```
 ~ git clone https://github.com/tankiso-montse/currency-web-app.git
 
-------------------------------------------------###NOTE - Node.js Installation-----------------------------------------------------------------
+---------------------------------------------------------------#NOTE - Node.js Installation----------------------------------------------
  Open a terminal or command prompt.
 - Type node -v and press Enter.
 -- If Node.js is installed, it will display the version number. If not, you will see an error message.
@@ -13,7 +13,7 @@ Web Currency App
 - If Node.js is not installed, download it from nodejs.org.
 - Follow the installation instructions for your operating system.
 
-------------------------------------------------###NOTE -Vite Installation Guide ###-----------------------------------------------------
+--------------------------------------------------------------#NOTE -Vite Installation Guide ###-----------------------------------------
 
 Using Homebrew (macOS)
 ~ brew install vite
@@ -23,7 +23,7 @@ Normal Installation
 ~ npm install -g create-vite
 ~ vite --version // Verify installation
 
-------------------------------------------------###NOTE -Yarn Installation Guide ###------------------------------------------------------
+--------------------------------------------------------------#NOTE -Yarn Installation Guide ###--------------------------------------
 (Package Manager)
 
 ``macOS Homebrew (recommended)``
@@ -53,7 +53,7 @@ Alternatively, you can download the Windows installer from the Yarn website and 
 ~ yarn --version // verifiy installation
 
 
-----------------------------------------------------------------#NOTE - Usage-----------------------------------------------------
+----------------------------------------------------------------#NOTE - Usage---------------------------------------------------------
 
 cd ~ tech_assessment 
 cd ~ currency-web-app
@@ -69,7 +69,7 @@ Run the Vite development server:To start the Vite development server, use the fo
 From there do 
 
 
-------------------------------------------------###NOTE - API Configuration------------------------------------------------
+------------------------------------------------------------#NOTE - API Configuration-------------------------------------------------
 
 1. Create an account and obtain an API key:
  - Go to the Open Exchange Rates website: https://openexchangerates.org/
@@ -83,47 +83,3 @@ From there do
  3. Store the API key in the .env.local file:
    - In the .env.local file, add the following line: VITE_API_KEY=YOUR_API_KEY_HERE
    - Replace YOUR_API_KEY_HERE with the API key you obtained from Open Exchange Rates.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
